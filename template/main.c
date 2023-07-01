@@ -174,6 +174,12 @@ const UWORD copper2[] __attribute__((section (".MEMF_CHIP"))) = {
 	0xffff, 0xfffe // end copper list
 };
 
+//int HerpDerp=0;
+
+void HerpDerp()
+{
+
+}
 void* doynaxdepack(const void* input, void* output) { // returns end of output data, input needs to be 16-bit aligned!
 	register volatile const void* _a0 ASM("a0") = input;
 	register volatile       void* _a1 ASM("a1") = output;
